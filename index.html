@@ -51,9 +51,9 @@
 
         <section class="projects" id="projects">
             <nav class="projects-menu">
-                <a href="#" class="projects-menu-link">Rostov-on-Don, Admiral</a>
-                <a href="#" class="projects-menu-link">Sochi Thieves</a>
-                <a href="#" class="projects-menu-link">Rostov-on-Don Patriotic</a>
+                <a class="projects-menu-link n0 action" data-index="0">Rostov-on-Don, Admiral</a>
+                <a class="projects-menu-link n1" data-index="1">Sochi Thieves</a>
+                <a class="projects-menu-link n2" data-index="2">Rostov-on-Don Patriotic</a>
             </nav>
             <div class="projects-inner-container">
 
@@ -66,36 +66,21 @@
                 </div>
 
                 <div class="slider-container-right">
-                    <div class="item">
-                        <img src="./images/slide1.png" alt="Первый слайд">
-                    </div>
-                    <div class="item">
-                        <img src="./images/slide2.png" alt="Второй слайд">
-                    </div>
-                    <div class="item">
-                        <img src="./images/slide3.png" alt="Третий слайд">
-                    </div>
-                    <div class="slider-nav-hide">
-                        <button class="prev slider-button" onclick="minusSlide()"><img src="./images/arrow-prev.svg"
-                                alt="arrow-prev"></button>
-                        <button class="next slider-button" onclick="plusSlide()"><img src="./images/arrow-next.svg"
-                                alt="arrow-next"></button>
-                    </div>
+
                 </div>
 
                 <div class="slider-container-statistic">
-                    <div class="statistic">
+                    <div class="statistic town">
                         <h3>City:</h3>
-                        <p>Rostov-on-Don<br>
-                            LCD admiral</p>
+                        
                     </div>
-                    <div class="statistic">
+                    <div class="statistic location">
                         <h3>apartment area:</h3>
-                        <p>81 m2</p>
+                        
                     </div>
-                    <div class="statistic">
+                    <div class="statistic months">
                         <h3>Repair time:</h3>
-                        <p>3.5 months</p>
+                        
                     </div>
                     <div class="statistic">
                         <h3>Repair Cost:</h3>
@@ -103,13 +88,9 @@
                     </div>
                 </div>
                 <div class="slider-nav">
-                    <a class="prev" onclick="minusSlide()">&larr;</a>
-                    <div class="slider-dots">
-                        <span class="slider-dots_item" onclick="currentSlide(1)"></span>
-                        <span class="slider-dots_item" onclick="currentSlide(2)"></span>
-                        <span class="slider-dots_item" onclick="currentSlide(3)"></span>
-                    </div>
-                    <a class="next" onclick="plusSlide()">&rarr;</a>
+                    <a class="slider__arrow prev">&larr;</a>
+                    <div class="slider-dots"></div>
+                    <a class="slider__arrow next">&rarr;</a>
                 </div>
             </div>
         </section>
